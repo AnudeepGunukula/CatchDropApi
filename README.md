@@ -1,2 +1,2 @@
 # CatchDropApi
-catches the deals that drops the price (nodejs)
+catches the deals that drops the price.
