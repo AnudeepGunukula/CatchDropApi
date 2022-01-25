@@ -2,22 +2,29 @@
   "name": "catchdropapi",
   "version": "1.0.0",
   "description": "catches the deals that drops the price.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AnudeepGunukula/CatchDropApi.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Anudeep Gunukula",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AnudeepGunukula/CatchDropApi/issues"
   },
   "homepage": "https://github.com/AnudeepGunukula/CatchDropApi#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
