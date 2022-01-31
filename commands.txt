@@ -5,7 +5,8 @@ node .
 npm install --save-dev nodemon  (for hotreload)
 npm install --save morgan       (for request log)
 npm install --save body-parser (for parsing req data to json)
-
+npm install --save dotenv (for env variables)
+npm install --save multer
 
 connString
 mongodb+srv://mongodb:<password>@cluster0.jv3gx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority

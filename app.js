@@ -6,6 +6,9 @@ const productRoutes = require('./api/routes/products');
 const orderRoutes = require('./api/routes/orders');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const dotenv = require('dotenv');
+
+dotenv.config();
 
 
 mongoose.connect('mongodb+srv://mongodb:' + process.env.MONGO_ATLAS_PWD + '@cluster0.jv3gx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
