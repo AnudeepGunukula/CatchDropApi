@@ -1,2 +1,2 @@
-# CatchDropApi
-catches the deals that has pricedrop
+# NodeJsApi
+CRUD operations using Nodejs and MongoDB
